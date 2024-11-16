@@ -46,6 +46,7 @@ export function ContactForm() {
 
   return (
     <form
+      action="https://ssgform.com/s/Ds2kgXQ8mNIb"
       name="contact"
       method="POST"
       data-netlify="true"
