@@ -1,5 +1,6 @@
 {
   "name": "asimatch-website",
+  "homepage": "https://nakamotojp.github.io/asimatch-netlify/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
