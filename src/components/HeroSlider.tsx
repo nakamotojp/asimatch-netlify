@@ -56,6 +56,9 @@ export function HeroSlider() {
                   src={slide.image}
                   alt={slide.title}
                   className="absolute inset-0 w-full h-full object-cover"
+                  loading="lazy" // 現在のlazy
+                  // fetchpriority="low" // 追加：優先度を下げる
+                  decoding="async" // 追加：非同期デコード
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50">
                   <div className="container mx-auto h-full flex items-center px-4">
